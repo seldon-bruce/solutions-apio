@@ -15,7 +15,7 @@
             {
                 "name": "default",
                 "graph": {
-                    "name": "test-container",
+                    "name": "Flowers",
                     "implementation": "SKLEARN_SERVER",
                     "modelUri": "gs://seldon-models/sklearn/iris",
                     "logger": {
@@ -25,12 +25,12 @@
                 "componentSpecs": [
                     {
                         "metadata": {
-                            "creationTimestamp": "2021-04-30T20:52:31Z"
+                            "creationTimestamp": "2021-04-30T20:55:25Z"
                         },
                         "spec": {
                             "containers": [
                                 {
-                                    "name": "test-container",
+                                    "name": "Flowers",
                                     "resources": {}
                                 }
                             ]
